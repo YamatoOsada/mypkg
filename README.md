@@ -1,6 +1,7 @@
 # mypkg
 このリポジトリはロボットシステム学で使用しているリポジトリです。
 このリポジトリはros 2のパッケージです。
+[![test](https://github.com/YamatoOsada/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/YamatoOsada/robosys2023/actions/workflows/test.yml)
 
 ## topicについて
 topicはノード間でやり取りするデータのことである。
