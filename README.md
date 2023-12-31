@@ -43,13 +43,16 @@ ros2 run mypkg listener
 ## 必要なソフトウェア
 * Python
   * テスト済み: 3.7〜3.10
-* ROS2 humbl
+* ROS 2 humble
 
 ## テスト環境
 * Ubuntu 22.04.3 LTS
 
 ## 著作権, ライセンス
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
-* このパッケージのコードの一部は，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
+* このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
+     * [ryuichiueda/my_slides/robosys_2022/lesson8](https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson8.md)
      * [ryuichiueda/my_slides/robosys_2022/lesson9](https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson9.md)
-* © 2024 Yamato Osada
+     * [ryuichiueda/my_slides/robosys_2022/lesson10](https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson10.md)
+     * [ryuichiueda/my_slides/robosys_2022/lesson11](https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson11.md)
+* © 2023 Yamato Osada
