@@ -4,29 +4,31 @@
 [![test](https://github.com/YamatoOsada/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/YamatoOsada/robosys2023/actions/workflows/test.yml)
 
 ## topicについて
-topicはノード間でやり取りするデータのことである。
+* topicはノード間でやり取りするデータのことである。
+* 送信にはパブリッシャ、受信や読み取りにはサブスクライバを使用する。
+* 1対1の通信だけでなく、1対10のような多数がデータを受け取ることができる。
 
 ## talker.py
 ### 機能
-Int16のデータを送信している。
-整数を0から順番にカウントしている。
+* Int16のデータを送信している。
+* 整数を0から順番にカウントしている。
 
 ## listener.py
 ### 機能
-Int16のデータを受信、表示している。
-カウントした数字のデータを取得して、標準出力で出力している。
+* Int16のデータを受信、表示している。
+* カウントした数字のデータを取得して、標準出力で出力している。
 
 ## talker.pyとlistener.pyの実行例
 別のターミナルを立ち上げ、下記の実行コマンドを入力する。
 
 ### talker側
 ```
-ros2 run mypkg talker
+$ ros2 run mypkg talker
 ```
 
 ### listener側
 ```
-ros2 run mypkg listener
+$ ros2 run mypkg listener
 ```
 
 すると、listener側に以下のように出力される。
