@@ -45,7 +45,6 @@ $ ros2 run mypkg listener
 
 ## 必要なソフトウェア
 * Python
-
 * ROS 2 humble
 
 ## テスト環境
